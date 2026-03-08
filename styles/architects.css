@@ -19,11 +19,26 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+.btn-primary{
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+}
 /* header styles */
 
 /* navbar related styles */
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 2.5rem;
+
 }
 .nav-links .nav-item{
     list-style: none;
@@ -39,4 +54,31 @@
     max-width: 1140px;
     width: 71%;
     margin: 0 auto;
+}
+/* banner related style */
+.banner-conntent{
+    max-width: 526;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-info{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    margin-bottom: 32px;   
+}
+.banner .banner img {
+    width: 100%;
+}
+/* Responsive media quary */
+@media screen and (max-width:576px) {
+    .navbar,.nav-links{
+        flex-direction: column;
+    }
+    
 }
