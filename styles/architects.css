@@ -168,7 +168,6 @@ main{
  /* features section relared style */
 .features {
     margin-top: 100px;
-    display: flex;
     gap: 100px;
 }
  #features-section-title{
@@ -189,10 +188,23 @@ main{
     width: 100%;
     height: 100%;
  }
+ #experience-badge{
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-left: -150px;
+ }
+ #experience-year{
+    font-size: 4rem;
+    font-weight: 700px;
+
+ }
 /* Responsive media quary */
 @media screen and (max-width:576px) {
     .navbar,
-    .team{
+    .team,
+    .features{
         flex-direction: column;
     }
     .nav-links .nav-item{
@@ -222,10 +234,17 @@ main{
     .sponsor-companyes { 
         gap: 50px;
     }
+     .feature-card{
+        width: 100%;
+    }
+    #experience-badge{
+    margin: 0px;
+ }
 }
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .team{
+    .team,
+    .features{
         flex-direction: column;
     }
     .section-title {
@@ -241,4 +260,7 @@ main{
         grid-template-columns: repeat(3 ,1fr);
         gap: 50px;
     }
+    #experience-badge{
+    margin: 0px;
+ }
 }
