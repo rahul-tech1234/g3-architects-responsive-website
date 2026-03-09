@@ -41,7 +41,7 @@
     font-weight: 600;
     margin-bottom: 2rem;
 }
-main{
+main,footer{
     max-width: 1140px;
     width: 71%;
     margin: 0 auto;
@@ -165,7 +165,7 @@ main{
  .sponsor-companyes img{
     filter: grayscale(100%);
  }
- /* features section relared style */
+ /* features section releted style */
 .features {
     margin-top: 100px;
     gap: 100px;
@@ -199,6 +199,14 @@ main{
     font-size: 4rem;
     font-weight: 700px;
 
+ }
+ /* footer section relative style */
+ .footer-container{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 30px 0;
+    text-align: center;
+    margin: 130px 0;
  }
 /* Responsive media quary */
 @media screen and (max-width:576px) {
